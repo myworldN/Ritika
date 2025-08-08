@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Special Gift Surprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #fff0f5);
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 30px;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      color: #d63384;
+    }
+    .gifts-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .gift-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .gift-card:hover {
+      transform: scale(1.05);
+    }
+    .gift-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .gift-info {
+      padding: 15px;
+      text-align: center;
+    }
+    .gift-info h3 {
+      margin: 10px 0;
+      color: #c2185b;
+    }
+    .gift-info p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>🎁 Surprise Gift Gallery 🎁</header>
+  <div class="gifts-container">
+    <div class="gift-card">
+      <img src="https://img.drz.lazcdn.com/g/kf/S81b8dcfe7ad449f38d2eeb08e0838e0bZ.jpg_720x720q80.jpg_.webp" alt="Chocolate Box">
+      <div class="gift-info">
+        <h3>Chocolates</h3>
+        <p>Sweet treats to melt your heart.</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuCGIZ3jQF0xx-URkL44an7KACl5FN7GYY50lnpiyIUBUIV2DHxFmZkSIt&s=10" alt="Teddy Bear">
+      <div class="gift-info">
+        <h3>Teddy Bear</h3>
+        <p>Soft hugs in a fluffy form!</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCV8nXcc4GxWrLQjLmmSI1My7F2CHJMIIwwCAEh981SzNzLVnEsRRSMTvw&s=10" alt="Perfume">
+      <div class="gift-info">
+        <h3>Perfume</h3>
+        <p>Fragrance of love and freshness.</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwLOwioq0mXS-2ruhrb7dVgfCOVjtwOWWnTzCs1GUZb8nF5hL6SR09Ps&s=10" alt="Jewelry">
+      <div class="gift-info">
+        <h3>Jewelry</h3>
+        <p>Shiny tokens of affection.</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQAAczd7oyrzULKDNL6fwKKdcYyVavOyXjVMWVP2eCAFJ1ZPHx6h_fyfO&s=10" alt="Photo Album">
+      <div class="gift-info">
+        <h3>Photo Album</h3>
+        <p>Memories captured forever.</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://m.media-amazon.com/images/I/51qh+9vLuWL._UF1000,1000_QL80_.jpg" alt="Books">
+      <div class="gift-info">
+        <h3>Books</h3>
+        <p>Stories that speak to the soul.</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfy_PxYAYPRDjyqxbLSaqJRzwORIZk_LpEL7v7QkEFyjBatBeKifOYNB1h&s=10" alt="Makeup Kit">
+      <div class="gift-info">
+        <h3>Makeup Kit</h3>
+        <p>Beauty essentials for shining bright.</p>
+      </div>
+    </div>
+    <div class="gift-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRquo1LIxKYB1o3hmc5pEJqsEWUqPeaGwdZYq-mE8JiHplQV__1x8SSMg&s=10" alt="Handbag">
+      <div class="gift-info">
+        <h3>Handbag</h3>
+        <p>Stylish companion for every outing.</p>
+      </div>
+    </div>
+  </div>
+<style>
+.magic-btn {
+  background: linear-gradient(45deg, #ff7eb3, #ff758c);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff7eb3, 0 0 20px #ff758c;
+  animation: glow 1.5s infinite alternate;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.magic-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ff4d88, 0 0 30px #ff99cc;
+}
+@keyframes glow {
+  from { box-shadow: 0 0 5px #ff7eb3; }
+  to { box-shadow: 0 0 20px #ff758c; }
+}
+</style>
+
+<!-- Magical Button with Link -->
+<a href="https://myworldn.github.io/Meri-cute-si-sister-/" target="_blank">
+  <button class="magic-btn">✨ Something More</button>
+</a>
+</body>
+</html>
